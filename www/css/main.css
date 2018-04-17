@@ -133,14 +133,14 @@ input[type=button]:hover{
     color: black;
 }
 section.about{
-    max-height: 750px;
+    max-height: 550px;
     height: 100%;
     padding:100px 0;
     line-height: 700px;
     background: blanchedalmond;
     box-shadow: inset 0 0 50px rgba(0,0,0,0.14);
 }
-section.about:after{
+section.about:after, section.menu>div:after{
     display: table;
     content: '';
     clear:none;
@@ -160,13 +160,13 @@ section.about:after{
 img.dish{
     width: 621px;
     height: 625px;
-
+    vertical-align: top;
 }
 .cookContainer{
     text-align: right;
 }
 section.ingredients{
-    height: 780px;
+    height: 560px;
     background: url(../img/ingredientsBG.jpg) 50% 0 no-repeat;
     background-size:cover ;
     padding:100px 0;
@@ -174,9 +174,9 @@ section.ingredients{
     text-align: center;
 }
 section.ingredients>.ingredientsText{
-    background: url(../img/cookTextBg.png) center 425px  no-repeat rgba(0,0,0,0.5);
-    width: 480px;
-    height: 480px;
+    background: url(../img/cookTextBg.png) center 380px  no-repeat rgba(0,0,0,0.5);
+    width: 420px;
+    height: 420px;
     position:absolute;
     left:810px;
     padding:70px;
@@ -187,6 +187,11 @@ section.ingredients>.ingredientsText>h2{
     font-family: "YesevaOne";
     line-height: 1.2;
     text-align: center;
+}
+section.ingredients>.ingredientsText p{
+    margin:30px auto;
+    width: 430px;
+
 }
 
 section.ingredients>.ingredientsText>p,section.ingredients>.ingredientsText ul{
@@ -200,8 +205,36 @@ section.ingredients>.ingredientsText li{
     line-height: 2;
     text-align: left;
 }
+section.menu{
+    padding: 100px 0;
+    height: 794px;
+    background:url(../img/menuBg.png) no-repeat ;
+    background-size: cover;
+}
+section.menu>div{
+    margin: 0 280px;
+    height: 100%;
+}
 
+section.menu .firstMenu{
+    height: 100%;
+    width: 430px;
+    float: left;
 
+}
+section.menu .secondMenu{
+    height: 100%;
+    width: 440px;
+    float: right;
+}
+section.menu h2{
+
+    font-size: 36px;
+    font-family: "YesevaOne";
+    color: rgb(204, 153, 0);
+    line-height: 0.667;
+    text-align: center;
+}
 
 /*
  * Remove text-shadow in selection highlight:
