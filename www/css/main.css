@@ -22,89 +22,100 @@ html {
     text-align: center;
 }
 
-body{
+body {
     padding: 0;
-    margin:0;
+    margin: 0;
     height: 100%;
 }
-main{
+
+main {
     position: relative;
     background-color: #ffffff;
     max-width: 1600px;
     margin: 0 auto;
     width: 100%;
-    min-width:1220px;
+    min-width: 1220px;
 }
-header{
-    position:absolute;
-    left:0;
-    top:0;
+
+header {
+    position: absolute;
+    left: 0;
+    top: 0;
     width: 100%;
-    height:110px;
-    background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1));
+    height: 110px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
 }
-section{
+
+section {
     overflow: hidden;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
-section.promo{
-    height:100% ;
+
+section.promo {
+    height: 100%;
     max-height: 700px;
     background: url(../img/contentBg1_01.jpg) 50% 0 no-repeat black;
-    background-size:cover;
+    background-size: cover;
 }
-.logo{
-    margin-left:12%;
+
+.logo {
+    margin-left: 12%;
     height: 105px;
     display: inline-block;
 }
-nav{
-    display:inline-block;
-    margin:0;
-    padding:0 0  0 11%;
+
+nav {
+    display: inline-block;
+    margin: 0;
+    padding: 0 0 0 11%;
 }
-nav ul{
-    display:inline-block;
-    color:white;
-    margin:0;
+
+nav ul {
+    display: inline-block;
+    color: white;
+    margin: 0;
     text-align: center;
     padding: 0;
 }
-nav ul li{
-    text-decoration:none;
+
+nav ul li {
+    text-decoration: none;
     list-style: none;
     display: inline-block;
-    height:103px;
-    margin:2px 35px 0 0;
+    height: 103px;
+    margin: 2px 35px 0 0;
     line-height: 105px;
-    }
+}
 
-nav ul li a{
+nav ul li a {
     display: block;
     text-decoration: none;
     color: white;
     font-size: 21px;
-/*   font-family: "GentiumBookBasic";*/
+    /*   font-family: "GentiumBookBasic";*/
     font-weight: bold;
 }
-.active, nav ul li:hover{
-    border-top:2px solid #ffffff;
-    margin-top:0;
+
+.active, nav ul li:hover {
+    border-top: 2px solid #ffffff;
+    margin-top: 0;
 }
-.contacts{
-    display:inline-block;
+
+.contacts {
+    display: inline-block;
     font-size: 21px;
     color: rgb(218, 179, 62);
     line-height: 1.2;
     width: 81px;
     height: 21px;
-    margin-left:-20px ;
+    margin-left: -20px;
 }
-h1{
+
+h1 {
     margin: 0;
-    padding-top:240px;
+    padding-top: 240px;
     font-size: 90px;
     /*font-family: "YesevaOne";*/
     color: rgba(255, 255, 255, 0.922);
@@ -112,10 +123,12 @@ h1{
     text-align: center;
     text-shadow: 0 1px 2px rgba(1, 1, 1, 0.64);
 }
-.divider{
-    margin:25px auto;
+
+.divider {
+    margin: 25px auto;
 }
-input[type=button]{
+
+input[type=button] {
     padding: 20px 50px;
     margin: 25px;
     border: 1px solid white;
@@ -125,115 +138,203 @@ input[type=button]{
     color: white;
     line-height: 1.2;
     text-align: center;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 }
-input[type=button]:hover{
-    background-color: rgba(0,0,0,0.5);
+
+input[type=button]:hover {
+    background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid black;
     color: black;
 }
-section.about{
+
+section.about {
     max-height: 550px;
     height: 100%;
-    padding:100px 0;
+    padding: 100px 0;
     line-height: 700px;
     background: blanchedalmond;
-    box-shadow: inset 0 0 50px rgba(0,0,0,0.14);
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.14);
 }
-section.about:after, section.menu>div:after{
+
+section.about:after, section.menu > div:after {
     display: table;
     content: '';
-    clear:none;
+    clear: none;
 }
-.about>.cook{
-    float:left;
-    width:430px;
+
+.about > .cook {
+    float: left;
+    width: 430px;
     line-height: normal;
-    padding-left:280px;
-    color:black;
+    padding-left: 280px;
+    color: black;
 }
-.about>.cook>h2 {
+
+.about > .cook > h2 {
     font-size: 36px;
     font-family: "YesevaOne";
     color: rgb(204, 153, 0);
 }
-img.dish{
+
+img.dish {
     width: 621px;
     height: 625px;
     vertical-align: top;
 }
-.cookContainer{
+
+.cookContainer {
     text-align: right;
 }
-section.ingredients{
+
+section.ingredients {
     height: 560px;
     background: url(../img/ingredientsBG.jpg) 50% 0 no-repeat;
-    background-size:cover ;
-    padding:100px 0;
+    background-size: cover;
+    padding: 100px 0;
     position: relative;
     text-align: center;
 }
-section.ingredients>.ingredientsText{
-    background: url(../img/cookTextBg.png) center 380px  no-repeat rgba(0,0,0,0.5);
+
+section.ingredients > .ingredientsText {
+    background: url(../img/cookTextBg.png) center 380px no-repeat rgba(0, 0, 0, 0.5);
     width: 420px;
     height: 420px;
-    position:absolute;
-    left:810px;
-    padding:70px;
+    position: absolute;
+    left: 810px;
+    padding: 70px;
     text-align: center;
 }
-section.ingredients>.ingredientsText>h2{
+
+section.ingredients > .ingredientsText > h2 {
     font-size: 36px;
     font-family: "YesevaOne";
     line-height: 1.2;
     text-align: center;
 }
-section.ingredients>.ingredientsText p{
-    margin:30px auto;
+
+section.ingredients > .ingredientsText p {
+    margin: 30px auto;
     width: 430px;
 
 }
 
-section.ingredients>.ingredientsText>p,section.ingredients>.ingredientsText ul{
+section.ingredients > .ingredientsText > p, section.ingredients > .ingredientsText ul {
     text-align: center;
 }
 
-section.ingredients>.ingredientsText li{
+section.ingredients > .ingredientsText li {
     font-size: 12px;
     font-family: "FontAwesome";
     color: rgb(255, 255, 255);
     line-height: 2;
     text-align: left;
 }
-section.menu{
+
+section.menu {
     padding: 100px 0;
     height: 794px;
-    background:url(../img/menuBg.png) no-repeat ;
+    background: url(../img/menuBg.png) no-repeat;
     background-size: cover;
 }
-section.menu>div{
+
+section.menu > div {
     margin: 0 280px;
     height: 100%;
 }
 
-section.menu .firstMenu{
+section.menu .firstMenu {
     height: 100%;
-    width: 430px;
-    float: left;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 180px;
+    -moz-column-gap: 180px;
+    column-gap: 180px;
 
 }
-section.menu .secondMenu{
+
+section.menu .secondMenu {
     height: 100%;
     width: 440px;
     float: right;
 }
-section.menu h2{
 
-    font-size: 36px;
+section.menu h3 {
+    font-size: 30px;
     font-family: "YesevaOne";
     color: rgb(204, 153, 0);
     line-height: 0.667;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.menuContainer span {
+    float: left;
+    font-size: 18px;
+    font-family: "YesevaOne";
+    color: rgb(200, 159, 45);
+    line-height: 1.143;
+    text-align: justifyAll;
+}
+
+.menuContainer strong {
+    float: right;
+    font-size: 17px;
+    font-family: "YesevaOne";
+    color: rgb(200, 159, 45);
+    line-height: 1.143;
+    text-align: justifyAll;
+}
+
+article {
+    width: 430px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+article:first-child {
+    margin-top: 0;
+}
+
+article div.item {
+    margin-top: 30px;
+}
+
+article div:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.menuContainer div.small {
+    color: black;
+    text-align: left;
+}
+
+
+section.reviews{
+    height: 560px;
+    overflow: hidden;
+    background: url(../img/reviewBg.jpg) 50% 0 no-repeat;
+    padding: 100px 0;
+}
+section .reviewText{
+    height: 420px;
+    width: 770px;
+    background-color: rgba(0,0,0,0.5);
+    margin: auto;
+    padding: 70px 0;
+}
+section .reviewText h3{
+
+    font-size: 36px;
+    font-family: "YesevaOne";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    margin: 20px;
+
 }
 
 /*
@@ -264,9 +365,10 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #c69a4b;
     margin: 1em 0;
     padding: 0;
+
 }
 
 /*
@@ -316,22 +418,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
@@ -428,9 +514,9 @@ textarea {
 }
 
 @media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 
@@ -445,8 +531,9 @@ textarea {
     *:before,
     *:after {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster:
-                                   http://www.sanbeiji.com/archives/953 */
+        color: #000 !important;
+        /* Black prints faster:
+                                          http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -468,7 +555,6 @@ textarea {
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-
     a[href^="#"]:after,
     a[href^="javascript:"]:after {
         content: "";
@@ -477,6 +563,7 @@ textarea {
     pre {
         white-space: pre-wrap !important;
     }
+
     pre,
     blockquote {
         border: 1px solid #999;
@@ -487,7 +574,6 @@ textarea {
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-
     thead {
         display: table-header-group;
     }
