@@ -34,7 +34,7 @@ main {
     max-width: 1600px;
     margin: 0 auto;
     width: 100%;
-    min-width: 1220px;
+    min-width: 1385px;
 }
 
 header {
@@ -312,22 +312,24 @@ article div:after {
     text-align: left;
 }
 
-
-section.reviews{
+section.reviews {
     height: 560px;
     overflow: hidden;
     background: url(../img/reviewBg.jpg) 50% 0 no-repeat;
     padding: 100px 0;
+    background-size: cover;
 }
-section .reviewText{
-    height: 420px;
-    width: 770px;
-    background-color: rgba(0,0,0,0.5);
-    margin: auto;
-    padding: 70px 0;
-}
-section .reviewText h3{
 
+section .reviewText {
+    height: 420px;
+    width: 570px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    padding: 70px 100px;
+
+}
+
+section .reviewText h3 {
     font-size: 36px;
     font-family: "YesevaOne";
     color: rgb(255, 255, 255);
@@ -335,6 +337,216 @@ section .reviewText h3{
     text-align: center;
     margin: 20px;
 
+}
+
+.quot {
+    position: relative;
+}
+
+section div.commas {
+    height: 45px;
+    width: 40px;
+    background: url("../img/commas.png") top no-repeat;
+    display: inline-block;
+    position: absolute;
+    left: -40px;
+}
+
+section .reviewText div {
+    font-size: 25px;
+    font-family: "GentiumBookBasic";
+    color: rgb(221, 224, 223);
+    font-weight: bold;
+    line-height: 1.8;
+    text-align: center;
+
+}
+
+section.reservation {
+    height: 500px;
+    background: url('../img/reservationBg.jpg') 50% 0 no-repeat;
+    background-size: cover;
+    padding: 100px 100px;
+}
+
+section.reservation:after, section.reservation:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+section.reservation div.reservImage {
+    float: left;
+    width: 570px;
+    height: 100%;
+
+}
+
+section.reservation div.reserv {
+    float: left;
+    margin-left: 100px;
+    width: 430px;
+    height: 100%;
+    text-align: center;
+
+}
+
+.reserv p {
+
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(76, 76, 76);
+    line-height: 1.5;
+    text-align: center;
+
+}
+
+section.reservation div.reserv h2 {
+    font-size: 36px;
+    font-family: "YesevaOne";
+    color: rgb(204, 153, 0);
+    line-height: 0.667;
+    text-align: center;
+    margin-top: 0;
+
+}
+
+.firstReservImage {
+    height: 100%;
+    width: 270px;
+    background-image: url('../img/firstReservImage.png');
+    float: left;
+}
+
+.secondReservImage {
+    height: 100%;
+    width: 270px;
+    float: right;
+    background-image: url('../img/secondReservImage.jpg');
+}
+
+.reserv input {
+    width: 200px;
+    padding-left: 10px;
+    height: 36px;
+
+}
+.reserv input:hover{
+    border: 1px solid rgb(201, 161, 49) ;
+}
+
+.reserv label {
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: rgb(201, 161, 49);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    margin-top: 30px;
+
+}
+
+.placeholder {
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(124, 124, 124);
+    font-style: italic;
+    line-height: 1.2;
+    text-align: left;
+}
+
+form {
+    text-align: center;
+}
+
+form .firstForm {
+    float: left;
+}
+
+form .secondForm {
+    float: right;
+}
+
+form input[type=submit] {
+    background: rgb(201, 161, 49);
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+input[type=date] {
+    height: 38px;
+}
+
+.inputButton {
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+form > div:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+footer {
+    height: 320px;
+    background: #191919;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 285px;
+}
+
+.flex-item1 {
+    width: 370px;
+    height: 100%;
+}
+
+.flex-item2 {
+    width: 230px;
+    height: 100%;
+}
+
+.flex-item3 {
+    width: 230px;
+    height: 100%;
+}
+
+footer img {
+    width: 230px;
+}
+footer p{
+    margin-bottom: 20px
+}
+footer div.cards {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    margin: auto;
+}
+footer div.cards a{
+    display: block;
+}
+footer div.cards div {
+    width: 20px;
+    height: 15px;
+}
+footer div.cards div:nth-child(1){
+    background: url('../img/cards.png');
+    background-position: 0 0;
+}
+footer div.cards div:nth-child(2){
+    background: url('../img/cards.png');
+    background-position: -33px 0;
+}
+footer div.cards div:nth-child(3){
+    background: url('../img/cards.png');
+    background-position: -66px 0;
+}
+footer div.cards div:nth-child(4){
+    background: url('../img/cards.png');
+    background-position: -99px 0;
 }
 
 /*
