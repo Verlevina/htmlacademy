@@ -34,7 +34,7 @@ main {
     max-width: 1600px;
     margin: 0 auto;
     width: 100%;
-    min-width: 1385px;
+    min-width: 1200px;
 }
 
 header {
@@ -61,7 +61,7 @@ section.promo {
 }
 
 .logo {
-    margin-left: 12%;
+    margin-left: 8%;
     height: 105px;
     display: inline-block;
 }
@@ -69,7 +69,7 @@ section.promo {
 nav {
     display: inline-block;
     margin: 0;
-    padding: 0 0 0 11%;
+    padding: 0 0 0 6%;
 }
 
 nav ul {
@@ -200,7 +200,7 @@ section.ingredients > .ingredientsText {
     width: 420px;
     height: 420px;
     position: absolute;
-    left: 810px;
+    left: 710px;
     padding: 70px;
     text-align: center;
 }
@@ -475,7 +475,7 @@ form input[type=submit] {
 }
 
 input[type=date] {
-    height: 38px;
+    height: 36px;
 }
 
 .inputButton {
@@ -501,16 +501,19 @@ footer {
 .flex-item1 {
     width: 370px;
     height: 100%;
+    margin:0 20px;
 }
 
 .flex-item2 {
     width: 230px;
     height: 100%;
+    margin:0 20px;
 }
 
 .flex-item3 {
     width: 230px;
     height: 100%;
+    margin:0 20px;
 }
 
 footer img {
@@ -525,9 +528,7 @@ footer div.cards {
     width: 120px;
     margin: auto;
 }
-footer div.cards a{
-    display: block;
-}
+
 footer div.cards div {
     width: 20px;
     height: 15px;
@@ -547,6 +548,40 @@ footer div.cards div:nth-child(3){
 footer div.cards div:nth-child(4){
     background: url('../img/cards.png');
     background-position: -99px 0;
+}
+footer div.cards div a{
+    display: block;
+    height: 100%;
+}
+footer div.social div a{
+    display: block;
+    height: 100%;
+}
+
+footer div.social div {
+    width: 15px;
+    height: 15px;
+    display:inline-block;
+    background-repeat:no-repeat ;
+}
+
+
+
+footer div.social div:nth-child(1){
+    background: url('../img/social.jpg');
+    background-position: 0 0;
+}
+footer div.social div:nth-child(2){
+    background: url('../img/social.jpg');
+    background-position: -25px 0;
+}
+footer div.social div:nth-child(3){
+    background: url('../img/social.jpg');
+    background-position: -50px 0;
+}
+footer div.social div:nth-child(4){
+    background: url('../img/social.jpg');
+    background-position: -79px 0;
 }
 
 /*
