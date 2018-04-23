@@ -8,7 +8,9 @@ header{
     background-repeat: repeat-y;
     text-align: center;
 }
-
+.logo{
+    margin: 0;
+}
 nav{
 display: none;
 }
@@ -38,9 +40,10 @@ section.about img.dish{
     display: none;
 }
 section.ingredients div.ingredientsText, section.reviews div.reviewText{
-    width: 100%;
+width: auto;
     height: auto;
     padding: 0;
+    margin: 0 auto;
 }
 section.ingredients div.ingredientsText p {
     padding: 10px;
@@ -103,4 +106,13 @@ form input[type="submit"]{
 }
 div.flex{
     margin: auto;!important;
+}
+
+/*класс для управления навигацией*/
+.showNav{
+    display: inline-block;
+    position: fixed;
+    right: 0;
+    top:0;
+
 }

@@ -77,12 +77,21 @@ nav {
 }
 .navButton{
     display:none;
-    width: 30px;
-    heigth: 30px;
+    width: 50px;
+    height: 50px;
     position:fixed;
     right: 0;
     top:0;
+    line-height: 50px;
 }
+.navButton:hover{
+    background: rgba(0,0,0,0.5);
+}
+header div.contacts{
+    display: block;
+    margin: auto;
+}
+
 nav ul {
     display: inline-block;
     color: white;
@@ -216,6 +225,7 @@ section.ingredients > .ingredientsText {
     padding: 70px;
     text-align: center;
     display: inline-block;
+    position: absolute;
 }
 
 
