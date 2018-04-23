@@ -1,0 +1,45 @@
+main{
+    width: 100%;
+    min-width: auto;
+}
+header{
+    width: 100%;
+    background-size:auto ;
+    background-repeat: repeat-y;
+    text-align: center;
+}
+
+nav{
+display: none;
+}
+.navButton{
+    display:block;
+}
+section.promo h1{
+    font-size: 3em;
+    padding-top: 140px;
+}
+input[type='button']{
+    margin: 10px;
+    width: 160px;
+    padding: 10px;
+}
+div.mainCook{
+    padding: 10px;
+    width: auto;
+}
+section.ingredients{
+    height: auto;
+}
+section.about img.dish{
+    display: none;
+}
+section.ingredients div.ingredientsText{
+    width: 100%;
+    height: auto;
+    padding: 0;
+}
+section.ingredients div.ingredientsText p{
+    padding: 10px;
+    width: auto;
+}
