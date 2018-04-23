@@ -24,22 +24,83 @@ input[type='button']{
     width: 160px;
     padding: 10px;
 }
-div.mainCook{
+section.about div.cook{
     padding: 10px;
     width: auto;
 }
-section.ingredients{
+div.mainCook>div.cook{
+    padding: 10px;
+}
+section.ingredients,section.reviews{
     height: auto;
 }
 section.about img.dish{
     display: none;
 }
-section.ingredients div.ingredientsText{
+section.ingredients div.ingredientsText, section.reviews div.reviewText{
     width: 100%;
     height: auto;
     padding: 0;
 }
-section.ingredients div.ingredientsText p{
+section.ingredients div.ingredientsText p {
     padding: 10px;
     width: auto;
+}
+section.menu{
+    width:100%;
+
+}
+section.menu div.firstMenu,section.menu div.secondMenu{
+width: auto;
+    padding: 10px;
+    margin: 0;
+}
+section.menu div.firstMenu>article,section.menu div.secondMenu>article {
+    width: auto;
+    margin:0;
+    padding: 10px 0;
+}
+section.reviews div.reviews{
+    padding:0;
+    margin: 0;
+}
+section.review div.quot>h3{
+    font-size: 2em;
+}
+section .reviewText div{
+font-size: 15px;
+    padding: 10px;
+}
+section.reservation div.reservImage{
+    width: auto;
+    height: auto;
+}
+.firstReservImage,.secondReservImage{
+    width: 100px;
+    height: 200px;
+    margin:10px;
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+section.reservation div.reserv{
+
+    margin:0;
+    width: auto;
+    height: auto;
+}
+section.reservation form div{
+text-align: center;
+}
+section.reservation form div.firstForm,section.reservation form div.secondForm{
+float: none;
+    margin: 0;
+}
+section.reservation form br{
+    height: 0;
+}
+form input[type="submit"]{
+    margin-top: 20px;
+}
+div.flex{
+    margin: auto;!important;
 }

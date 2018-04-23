@@ -62,7 +62,7 @@ section.about div.mainCook{
 
 }
 section.about div.cook{
-    width: 100%;
+    width: 300px;
 }
 .logo {
     margin-left: 6%;
@@ -870,6 +870,7 @@ textarea {
     .about>.mainCook{
         min-width: auto;
     }
+
     section.ingredients > .ingredientsText{
         margin: auto;
     }
