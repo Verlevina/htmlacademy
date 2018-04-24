@@ -35,6 +35,7 @@ div.mainCook>div.cook{
 }
 section.ingredients,section.reviews{
     height: auto;
+    position: inherit;
 }
 section.about img.dish{
     display: none;
@@ -45,9 +46,17 @@ width: auto;
     padding: 0;
     margin: 0 auto;
 }
+section.ingredients div.ingredientsText{
+    background-position: bottom;
+    position: inherit;
+}
 section.ingredients div.ingredientsText p {
     padding: 10px;
     width: auto;
+    position: inherit;
+}
+section.reviews div.quot{
+    position: static;
 }
 section.menu{
     width:100%;
@@ -114,5 +123,44 @@ div.flex{
     position: fixed;
     right: 0;
     top:0;
+    height: 100%;
 
+
+}
+
+.showNav>ul{
+    background: rgb(0,0,0);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:flex-start;
+    padding: 10px;
+}
+
+.showNav>ul li{
+margin: 0;
+
+}
+.showNav>ul li a{
+    margin-bottom: 2px;
+    padding: 3px 0;
+    line-height: 15px;
+    height: auto;
+}
+.showNav>ul>li:hover{
+    border: none;
+}
+.showNav>ul>li a:hover{
+    border-top:none;
+    border-bottom:2px solid #ffffff;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+.active{
+    border-top:none;
+    border-bottom:2px solid #ffffff;
+    margin-bottom: 0;
+    margin-top: 0;
 }
