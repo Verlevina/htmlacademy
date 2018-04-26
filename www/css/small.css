@@ -1,4 +1,4 @@
-main{
+div.wrapper{
     width: 100%;
     min-width: auto;
 }
@@ -17,9 +17,9 @@ display: none;
 .navButton{
     display:block;
 }
-section.promo h1{
+h1{
     font-size: 3em;
-    padding-top: 140px;
+    padding-top: 40px;
 }
 input[type='button']{
     margin: 10px;
@@ -29,6 +29,9 @@ input[type='button']{
 section.about div.cook{
     padding: 10px;
     width: auto;
+}
+section.promo img.divider{
+    margin-top: 400px;
 }
 div.mainCook>div.cook{
     padding: 10px;
