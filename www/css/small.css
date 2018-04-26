@@ -1,166 +1,194 @@
-div.wrapper{
+div.wrapper {
     width: 100%;
     min-width: auto;
 }
-header{
+
+header {
     width: 100%;
-    background-size:auto ;
+    background-size: auto;
     background-repeat: repeat-y;
     text-align: center;
 }
-.logo{
+
+.logo {
     margin: 0;
 }
-nav{
-display: none;
+
+nav {
+    display: none;
 }
-.navButton{
-    display:block;
+
+.navButton {
+    display: block;
 }
-section.promo h2{
+
+section.promo h2 {
     font-size: 3em;
     padding-top: 100px;
 }
-input[type='button']{
+
+input[type='button'] {
     margin: 10px;
     width: 160px;
     padding: 10px;
 }
-section.about div.cook{
+
+section.about div.cook {
     padding: 10px;
     width: auto;
 }
-div.mainCook>div.cook{
+
+div.mainCook > div.cook {
     padding: 10px;
 }
-section.ingredients,section.reviews{
+
+section.ingredients, section.reviews {
     height: auto;
     position: inherit;
 }
-section.about img.dish{
+
+section.about img.dish {
     display: none;
 }
-section.ingredients div.ingredientsText, section.reviews div.reviewText{
-width: auto;
+
+section.ingredients div.ingredientsText, section.reviews div.reviewText {
+    width: auto;
     height: auto;
     padding: 0;
     margin: 0 auto;
 }
-section.ingredients div.ingredientsText{
+
+section.ingredients div.ingredientsText {
     background-position: bottom;
     position: inherit;
 }
+
 section.ingredients div.ingredientsText p {
     padding: 10px;
     width: auto;
     position: inherit;
 }
-section.reviews div.quot{
+
+section.reviews div.quot {
     position: static;
 }
-section.menu{
-    width:100%;
 
+section.menu {
+    width: 100%;
 }
-section.menu div.firstMenu,section.menu div.secondMenu{
-width: auto;
+
+section.menu div.firstMenu, section.menu div.secondMenu {
+    width: auto;
     padding: 10px;
     margin: 0;
 }
-section.menu div.firstMenu>article,section.menu div.secondMenu>article {
+
+section.menu div.firstMenu > article, section.menu div.secondMenu > article {
     width: auto;
-    margin:0;
+    margin: 0;
     padding: 10px 0;
 }
-section.reviews div.reviews{
-    padding:0;
+
+section.reviews div.reviews {
+    padding: 0;
     margin: 0;
 }
-section.review div.quot>h3{
+
+section.review div.quot > h3 {
     font-size: 2em;
 }
-section .reviewText div{
-font-size: 15px;
+
+section .reviewText div {
+    font-size: 15px;
     padding: 10px;
 }
-section.reservation div.reservImage{
+
+section.reservation div.reservImage {
     width: auto;
     height: auto;
 }
-.firstReservImage,.secondReservImage{
+
+.firstReservImage, .secondReservImage {
     width: 100px;
     height: 200px;
-    margin:10px;
-    background-size:cover ;
+    margin: 10px;
+    background-size: cover;
     background-repeat: no-repeat;
 }
-section.reservation div.reserv{
 
-    margin:0;
+section.reservation div.reserv {
+
+    margin: 0;
     width: auto;
     height: auto;
 }
-section.reservation form div{
-text-align: center;
+
+section.reservation form div {
+    text-align: center;
 }
-section.reservation form div.firstForm,section.reservation form div.secondForm{
-float: none;
+
+section.reservation form div.firstForm, section.reservation form div.secondForm {
+    float: none;
     margin: 0;
 }
-section.reservation form br{
+
+section.reservation form br {
     height: 0;
 }
-form input[type="submit"]{
+
+form input[type="submit"] {
     margin-top: 20px;
 }
-div.flex{
-    margin: auto;!important;
+
+div.flex {
+    margin: auto;
 }
 
 /*класс для управления навигацией*/
-.showNav{
+.showNav {
     display: inline-block;
     position: fixed;
     right: 0;
-    top:0;
+    top: 0;
     height: 100%;
-
-
 }
 
-.showNav>ul{
-    background: rgb(0,0,0);
+.showNav > ul {
+    background: rgb(0, 0, 0);
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
-    align-items:flex-start;
+    justify-content: space-around;
+    align-items: flex-start;
     padding: 10px;
 }
 
-.showNav>ul li{
-margin: 0;
-
+.showNav > ul li {
+    margin: 0;
 }
-.showNav>ul li a{
+
+.showNav > ul li a {
     margin-bottom: 2px;
     padding: 3px 0;
     line-height: 15px;
     height: auto;
 }
-.showNav>ul>li:hover{
+
+.showNav > ul > li:hover {
     border: none;
 }
-.showNav>ul>li a:hover{
-    border-top:none;
-    border-bottom:2px solid #ffffff;
+
+.showNav > ul > li a:hover {
+    border-top: none;
+    border-bottom: 2px solid #ffffff;
     margin-bottom: 0;
     margin-top: 0;
 
 }
-.active{
-    border-top:none;
-    border-bottom:2px solid #ffffff;
+
+.active {
+    border-top: none;
+    border-bottom: 2px solid #ffffff;
     margin-bottom: 0;
     margin-top: 0;
 }
