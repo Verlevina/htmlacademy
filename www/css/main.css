@@ -56,9 +56,7 @@ section.promo {
     background: url(../img/contentBg1_01.jpg) 50% 0 no-repeat black;
     background-size: cover;
 }
-section.promo img.divider{
-margin-top: 350px;
-}
+
 section.about div.mainCook{
     width: 100%;
     min-width: auto;
@@ -137,15 +135,16 @@ nav ul li a {
     margin-left: -20px;
 }
 
-h1 {
+section.promo h2 {
     margin: 0;
     font-size: 90px;
+    padding-top: 240px;
     /*font-family: "YesevaOne";*/
     color: rgba(255, 255, 255, 0.922);
     line-height: 1.2;
     text-align: center;
     text-shadow: 0 1px 2px rgba(1, 1, 1, 0.64);
-    position: relative;
+
 }
 
 .divider {
@@ -306,21 +305,21 @@ section.menu h3 {
     text-align: justifyAll;
 }
 
-article {
+div.content {
     width: 430px;
     margin-bottom: 20px;
     margin-top: 50px;
 }
 
-article:first-child {
+div.content:first-child {
     margin-top: 0;
 }
 
-article div.item {
+div.content div.item {
     margin-top: 30px;
 }
 
-article div:after {
+div.content div:after {
     content: '';
     display: table;
     clear: both;
@@ -421,7 +420,6 @@ section.reservation div.reserv h2 {
     font-size: 36px;
     font-family: "YesevaOne";
     color: rgb(204, 153, 0);
-    line-height: 0.667;
     text-align: center;
     margin-top: 0;
 
@@ -453,7 +451,7 @@ section.reservation div.reserv h2 {
     padding-bottom:2px ;
 }
 
-.reserv label {
+.reserv span {
     font-size: 14px;
     font-family: "OpenSans";
     color: rgb(201, 161, 49);
@@ -485,11 +483,12 @@ form .secondForm {
     float: right;
 }
 
-form input[type=submit] {
+input[type=submit] {
     background: rgb(201, 161, 49);
     color: white;
     border: none;
     padding: 5px;
+    margin-top:10px;
 }
 
 input[type=date] {
@@ -873,9 +872,9 @@ textarea {
     div.wrapper{
        min-width: auto;
    }
-    h1{
+    section.promo h2{
         font-size:60px ;
-        padding-top: 90px;
+        padding-top: 220px;
     }
 
     nav{
@@ -897,7 +896,7 @@ textarea {
         margin: auto;
     }
     section.reservation div .reserv{
-margin:20px;
+margin:0 20px;
 
     }
 footer{

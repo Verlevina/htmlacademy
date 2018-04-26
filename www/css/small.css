@@ -17,9 +17,9 @@ display: none;
 .navButton{
     display:block;
 }
-h1{
+section.promo h2{
     font-size: 3em;
-    padding-top: 40px;
+    padding-top: 100px;
 }
 input[type='button']{
     margin: 10px;
@@ -29,9 +29,6 @@ input[type='button']{
 section.about div.cook{
     padding: 10px;
     width: auto;
-}
-section.promo img.divider{
-    margin-top: 400px;
 }
 div.mainCook>div.cook{
     padding: 10px;
