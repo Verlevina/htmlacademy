@@ -38,6 +38,13 @@ section.about div.cook {
     width: auto;
 }
 
+section.about div.mainCook{
+    width: inherit;
+    margin: auto;
+    min-width: inherit;
+    max-width: 420px;
+}
+
 div.mainCook > div.cook {
     padding: 10px;
 }
