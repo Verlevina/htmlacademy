@@ -37,7 +37,7 @@ div.wrapper {
 }
 /*header*/
 header {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     width: 100%;
@@ -222,7 +222,6 @@ section.ingredients {
     background: url(../img/ingredientsBG.jpg) 50% 0 no-repeat;
     background-size: cover;
     padding: 100px 0;
-    position: relative;
     text-align: center;
 }
 
@@ -381,7 +380,7 @@ section div.commas {
 section.reservation {
     background: url('../img/reservationBg.jpg') 50% 0 no-repeat;
     background-size: cover;
-    padding: 100px 0;
+    padding: 130px 0;
 }
 
 section.reservation > div {
@@ -851,6 +850,9 @@ textarea {
         min-width: auto;
     }
 
+    header{
+        position: fixed;
+    }
     section.promo h2 {
         font-size: 60px;
         padding-top: 220px;
@@ -904,7 +906,9 @@ textarea {
         margin-left: -94px;
         margin-bottom:20px;
     }
-
+header{
+    position:absolute;
+}
     nav ul li {
         margin: 5px;
     }
