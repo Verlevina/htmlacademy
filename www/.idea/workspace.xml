@@ -22,7 +22,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -39,18 +39,18 @@
       <file leaf-file-name="small.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/small.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3366">
+            <state relative-caret-position="674">
               <caret line="198" column="12" selection-start-line="198" selection-start-column="12" selection-end-line="198" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15470">
-              <caret line="910" column="1" selection-start-line="910" selection-start-column="1" selection-end-line="910" selection-end-column="1" />
+            <state relative-caret-position="317">
+              <caret line="436" column="30" selection-start-line="436" selection-start-column="30" selection-end-line="436" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -282,15 +282,15 @@
       <workItem from="1524825925622" duration="2143000" />
       <workItem from="1524896836098" duration="409000" />
       <workItem from="1524897333158" duration="3843000" />
-      <workItem from="1525977137125" duration="44000" />
+      <workItem from="1525977137125" duration="2001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95806000" />
+    <option name="totallyTimeSpent" value="97763000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19441517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -789,22 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/small.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3366">
-          <caret line="198" column="12" selection-start-line="198" selection-start-column="12" selection-end-line="198" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15470">
-          <caret line="910" column="1" selection-start-line="910" selection-start-column="1" selection-end-line="910" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -814,6 +798,22 @@
             <marker date="1525977076566" expanded="true" signature="778:945" placeholder="..." />
             <marker date="1525977076566" expanded="true" signature="872:900" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/small.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="198" column="12" selection-start-line="198" selection-start-column="12" selection-end-line="198" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="436" column="30" selection-start-line="436" selection-start-column="30" selection-end-line="436" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
