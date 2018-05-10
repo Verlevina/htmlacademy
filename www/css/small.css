@@ -154,7 +154,7 @@ div.flex {
 
 /*класс для управления навигацией*/
 .showNav {
-    display: inline-block;
+    display: none;
     position: fixed;
     right: 0;
     top: 0;
