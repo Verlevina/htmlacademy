@@ -6,8 +6,9 @@ function controls(){
     controlEl.addEventListener('click',showNav);
 }
 function showNav(event){
-    var nav=document.getElementsByTagName('nav')[0];
-    nav.classList.toggle('showNav');
+    var nav=$('nav');
+    nav.toggleClass('showNav');
+    nav.slideToggle('slow');
     for (var i=0;i<a.length;i++ ) {
         a[i].addEventListener('click', activeClick);
     }
