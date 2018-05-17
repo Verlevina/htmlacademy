@@ -2,7 +2,9 @@ div.wrapper {
     width: 100%;
     min-width: auto;
 }
-
+body{
+    position:relative;
+}
 header {
     width: 100%;
     background-size: auto;
@@ -13,10 +15,6 @@ header {
 
 .logo {
     margin: 0;
-}
-
-nav {
-    display: none;
 }
 
 .navButton {
@@ -153,14 +151,14 @@ div.flex {
 }
 
 /*класс для управления навигацией*/
-.showNav {
+nav {
     position: fixed;
     right: 0;
     top: 0;
     height: 100%;
 }
 
-.showNav > ul {
+nav > ul {
     background: rgb(0, 0, 0);
     height: 100%;
     display: flex;
@@ -170,22 +168,22 @@ div.flex {
     padding: 10px;
 }
 
-.showNav > ul li {
+nav > ul li {
     margin: 0;
 }
 
-.showNav > ul li a {
+nav > ul li a {
     margin-bottom: 2px;
     padding: 3px 0;
     line-height: 15px;
     height: auto;
 }
 
-.showNav > ul > li:hover {
+nav > ul > li:hover {
     border: none;
 }
 
-.showNav > ul > li a:hover {
+nav > ul > li a:hover {
     border-top: none;
     border-bottom: 2px solid #ffffff;
     margin-bottom: 0;
